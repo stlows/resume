@@ -1,7 +1,7 @@
 <template>
 <div class="my-section">
-    <h1><i :class="section.icon"></i>{{ section.title }}</h1>
-    <p v-if="section.body != ''"> {{ section.body }} </p>
+    <h1><i :class="section.icon"></i>{{ section.title[lang] }}</h1>
+    <p v-if="section.body[lang] != ''"> {{ section.body[lang] }} </p>
     <div class="cards" v-if="section.cards.length > 0">
         <card v-for="card in section.cards" :key="card.key" :card="card" :lang="lang" ></card>
     </div>

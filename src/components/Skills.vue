@@ -7,12 +7,12 @@
 
 <script>
 import SkillsGroup from './SkillsGroup.vue';
-import SkillsData from '../data/skills.js';
+import SkillsData from '../data/skills.json';
 
 export default {
-    data() {
+    data(){
         return {
-            skillsGroups: SkillsData.skillsGroups
+            skillsGroups: SkillsData
         }
     },
     components: {

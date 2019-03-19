@@ -1,16 +1,16 @@
 <template>
     <div class="my-title">
-        <h1>{{ myData.name }}</h1>
-        <h2>{{ myData.jobTitle }}</h2>
+        <h1>{{ personalData.name }}</h1>
+        <h2>{{ personalData.jobTitle }}</h2>
     </div>
 </template>
 
 <script>
-import MyData from '../data/personal.js';
+import personal from '../data/personal.json';
 export default {
     data(){
         return {
-            myData: MyData
+            personalData: personal
         }
     }
 }

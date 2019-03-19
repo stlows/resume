@@ -13,7 +13,7 @@
 
 <script>
 import ContactInfoItem from './ContactInfoItem.vue';
-import MyData from '../data/personal.js';
+import MyData from '../data/personal.json';
 
 export default {
     data() {
