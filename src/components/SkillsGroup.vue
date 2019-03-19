@@ -1,7 +1,16 @@
 <template>
     <div class="skills-group">
-        <h3>{{ skillsGroup.name['fr'] }}</h3>
-        <skill v-for="skill in skillsGroup.skills" :key="skill.name" :name="skill.name" :level="skill.level"></skill>
+        <h3>
+            <i :class="skillsGroup.icon"></i>
+            <span class="skills-group-name">{{ skillsGroup.name['en'] }}</span>
+            <span class="expand-btn" v-if="skillsGroup.skills.length > 0" @click="showSkills = !showSkills">
+                <i v-if="!showSkills" class="fas fa-plus"></i>
+                <i v-if="showSkills" class="fas fa-minus"></i>
+            </span>
+        </h3>
+        <template v-if="showSkills">
+            <skill v-for="skill in skillsGroup.skills" :key="skill.name" :name="skill.name" :level="skill.level"></skill>
+        </template>
     </div>
 </template>
 
@@ -9,7 +18,11 @@
 import Skill from './Skill.vue';
 
 export default {
-    
+    data() {
+        return {
+            showSkills: false
+        }
+    },
     props:{
         'skillsGroup':Object
     },
@@ -22,6 +35,14 @@ export default {
 <style scoped>
 .skills-group{
     margin-left: 15px;
+    margin-bottom: 15px;
+}
+.expand-btn:hover{
+    cursor: pointer;
+}
+.expand-btn{
+    float:right;
+    padding-right: 3px;
 }
 h3{
     text-transform: uppercase;
@@ -32,7 +53,10 @@ h3{
     letter-spacing: 1px;
     font-size: 0.8em;
     margin-bottom: 5px;
-    width: 75%;
-
+    width: 90%;
+    display: inline-block;
+}
+i {
+    padding:0 5px;
 }
 </style>

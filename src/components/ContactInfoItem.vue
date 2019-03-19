@@ -51,11 +51,13 @@ export default {
         margin-top: -10px;
         list-style: none;
     }
-    .link:hover {
-        cursor: pointer;
-    }
+    
     a{
         text-decoration: none;
         color: inherit;
+    }
+    .link:hover {
+        cursor: pointer;
+        color: #aaaaaa;
     }
 </style>

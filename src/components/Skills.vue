@@ -1,6 +1,6 @@
 <template>
     <div class="skills">
-        <h3>Compétences</h3>
+        <h3>{{ title['en'] }}</h3>
         <skills-group v-for="skillsGroup in skillsGroups" :key="skillsGroup.name['fr']" :skillsGroup="skillsGroup"></skills-group>
     </div>
 </template>
@@ -12,7 +12,8 @@ import SkillsData from '../data/skills.json';
 export default {
     data(){
         return {
-            skillsGroups: SkillsData
+            skillsGroups: SkillsData.skills,
+            title: SkillsData.title
         }
     },
     components: {

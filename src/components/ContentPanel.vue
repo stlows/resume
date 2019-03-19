@@ -31,6 +31,6 @@ export default {
         display:block;
         height:100%;
         background-color: #cccccc;
-        padding-left: 275px;
+        padding-left: 290px;
     }
 </style>

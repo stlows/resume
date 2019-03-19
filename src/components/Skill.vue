@@ -14,7 +14,7 @@ export default {
     methods:{
         getStyle(level){
             return {
-                'width': level + '%'
+                'width': 0.85 * level + '%'
             }
         },
         getTitle(level){

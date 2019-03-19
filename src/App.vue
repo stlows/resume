@@ -15,7 +15,7 @@
   export default {
     data() {
       return {
-        lang: 'fr'
+        lang: 'en'
       }
     },
     components: {

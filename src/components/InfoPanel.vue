@@ -20,7 +20,7 @@ export default {
 <style scoped>
     .infoPanel {
         float: left;
-        width: 275px;
+        width: 290px;
         height:100%;
         background-color: #111;
         color: #cccccc;

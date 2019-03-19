@@ -1,7 +1,10 @@
 <template>
     <div class="my-task">
         <span class="task-title" v-html="task.title['fr']"></span>
-        <span class="expand-btn" v-if="task.subtasks.length > 0" @click="showSub = !showSub"><i class="fas fa-plus"></i></span>
+        <span class="expand-btn" v-if="task.subtasks.length > 0" @click="showSub = !showSub">
+            <i v-if="!showSub" class="fas fa-plus"></i>
+            <i v-if="showSub" class="fas fa-minus"></i>
+        </span>
         <ul class="secondary-task" :class={hidden:!showSub}>
             <li v-for="subtask in task.subtasks" :key="subtask.title">
                 <span>{{subtask['fr']}}</span>
