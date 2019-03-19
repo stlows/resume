@@ -1,4 +1,12 @@
-# vbeaulieu
+# Resume using Vue.js
+
+## Description
+This project is a resume website using Vue.js. This project handles bi-language resume and could be easily extandable to more than that.
+
+## Data is stored in
+```
+src/data/
+```
 
 ## Project setup
 ```
@@ -14,16 +22,3 @@ npm run serve
 ```
 npm run build
 ```
-
-### Run your tests
-```
-npm run test
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
