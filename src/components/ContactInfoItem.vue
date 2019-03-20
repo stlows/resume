@@ -28,8 +28,8 @@
 <script>
 export default {
     props:{
-            item: [Object,String,Array],
-            icon:String
+            'item': [Object,String,Array],
+            'icon':String
         }
     }   
 </script>
