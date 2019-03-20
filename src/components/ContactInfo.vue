@@ -3,14 +3,16 @@
         <div class="infoPanelTitle">
             Contact
         </div>
-        <div class="container-fluid px-3">
-            <contact-link-item icon="fas fa-envelope" :item="myData.email"></contact-link-item>
-            <contact-info-item icon="fas fa-phone fa-rotate-90" :item="myData.phone"></contact-info-item>
-            <contact-list-item icon="fas fa-map-marker" :item="myData.address"></contact-list-item>
-            <contact-link-item icon="fab fa-linkedin-in" :item="myData.linkedIn"></contact-link-item>
-            <contact-link-item icon="fab fa-github" :item="myData.github"></contact-link-item>
-            <contact-link-item icon="fas fa-globe" :item="myData.website"></contact-link-item>
-            <contact-info-item icon="fas fa-language" :item="myData.languages"></contact-info-item>
+        <div class="container-fluid">
+            <div class="row">
+                <contact-link-item icon="fas fa-envelope" :item="myData.email"></contact-link-item>
+                <contact-info-item icon="fas fa-phone fa-rotate-90" :item="myData.phone"></contact-info-item>
+                <contact-list-item icon="fas fa-map-marker" :item="myData.address"></contact-list-item>
+                <contact-link-item icon="fab fa-linkedin-in" :item="myData.linkedIn"></contact-link-item>
+                <contact-link-item icon="fab fa-github" :item="myData.github"></contact-link-item>
+                <contact-link-item icon="fas fa-globe" :item="myData.website"></contact-link-item>
+                <contact-info-item icon="fas fa-language" :item="myData.languages"></contact-info-item>
+            </div>
         </div>
     </div>
 </template>

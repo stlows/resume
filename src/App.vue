@@ -1,10 +1,10 @@
 <template>
   <div class="container-fluid px-0">
     <div class="row no-gutters">
-      <div class="col-sm-12 col-xl-2">
+      <div class="col-sm-12 col-xl-3">
         <info-panel></info-panel>
       </div>
-      <div class="col-sm-12 col-xl-10">
+      <div class="col-sm-12 col-xl-9">
         <content-panel></content-panel>
       </div>
       <div class="col-sm-12">
@@ -15,7 +15,7 @@
 </template>
 
 <script>
-  import InfoPanel from './components/InfoPanel.vue';
+  import InfoPanel from './components/1_InfoPanel/InfoPanel.vue';
   import ContentPanel from './components/ContentPanel.vue';
   import LanguageSelection from './components/LanguageSelection.vue';
 
@@ -40,8 +40,7 @@ body{
        text-transform: uppercase;
        font-size: 1em;
        text-align: center;
-       margin-top: 30px;
-       margin-bottom: 30px;
+       margin: 30px 0;
 }
 .infoItem {
   margin-bottom: 10px;
