@@ -2,7 +2,7 @@
     <div class="skills-group">
         <h3>
             <i :class="skillsGroup.icon"></i>
-            <span class="skills-group-name">{{ skillsGroup.name['en'] }}</span>
+            <span class="skills-group-name">{{ skillsGroup.name[lang] }}</span>
             <span class="expand-btn" v-if="skillsGroup.skills.length > 0" @click="showSkills = !showSkills">
                 <i v-if="!showSkills" class="fas fa-plus"></i>
                 <i v-if="showSkills" class="fas fa-minus"></i>
@@ -24,7 +24,8 @@ export default {
         }
     },
     props:{
-        'skillsGroup':Object
+        'skillsGroup':Object,
+        'lang': String
     },
     components:{
         'skill': Skill
@@ -37,6 +38,7 @@ export default {
     margin-left: 15px;
     margin-bottom: 15px;
 }
+
 .expand-btn:hover{
     cursor: pointer;
 }

@@ -1,8 +1,8 @@
 <template>
-  <div class="resume" @setLanguage="setLanguage">
-    <info-panel></info-panel>
+  <div class="resume">
+    <info-panel :lang="lang"></info-panel>
     <content-panel :lang="lang"></content-panel>
-    <language-selection :lang="lang"></language-selection>
+    <language-selection :lang="lang" @OnLanguageChange="lang = $event"></language-selection>
   </div>
 
 </template>
@@ -15,19 +15,13 @@
   export default {
     data() {
       return {
-        lang: 'en'
+        lang: 'fr'
       }
     },
     components: {
       'info-panel': InfoPanel,
       'content-panel': ContentPanel,
       'language-selection':LanguageSelection
-    },
-    methods: {
-      setLanguage(_lang) {
-        
-        this.lang = _lang;
-      }
     }
   }
 </script>

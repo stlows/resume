@@ -10,9 +10,15 @@ export default {
     props:{
         'lang': String
     },
+    data() {
+        return{
+            my_lang: this.lang
+        }
+    },
     methods:{
         setLanguage(_lang){
-            this.$emit('setLanguage', _lang);
+            this.my_lang = _lang;
+            this.$emit('OnLanguageChange', _lang);
         }
     }
 }
@@ -20,8 +26,10 @@ export default {
 
 <style scoped>
     .language-selection{
-        padding: 20px 0; 
+        background-color: #333333;
+        padding: 10px 0; 
         text-align: center;
+        color: #eeeeee;
     }
     span {
         cursor: pointer;

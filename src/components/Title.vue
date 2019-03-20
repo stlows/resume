@@ -1,7 +1,7 @@
 <template>
     <div class="my-title">
         <h1>{{ personalData.name }}</h1>
-        <h2>{{ personalData.jobTitle }}</h2>
+        <h2>{{ personalData.jobTitle[lang] }}</h2>
     </div>
 </template>
 
@@ -12,6 +12,9 @@ export default {
         return {
             personalData: personal
         }
+    },
+    props:{
+        'lang':String
     }
 }
 </script>

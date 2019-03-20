@@ -1,6 +1,6 @@
 <template>
     <div class="content-panel">
-        <my-title></my-title>
+        <my-title :lang="lang"></my-title>
         <my-section v-for="section in sections" :key="section.key" :section="section" :lang="lang"></my-section>
     </div>
 </template>
@@ -32,5 +32,6 @@ export default {
         height:100%;
         background-color: #cccccc;
         padding-left: 290px;
+        width:100%;
     }
 </style>

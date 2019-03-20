@@ -36,20 +36,8 @@
         "icon":"fas fa-drafting-compass",
         "skills":[
             {
-                "name": "JavaScript",
+                "name": "JS, jQuery, CSS3, HTML5",
                 "level": 80
-            },
-            {
-                "name": "jQuery",
-                "level": 75
-            },
-            {
-                "name": "HTML5",
-                "level": 60
-            },
-            {
-                "name": "CSS3",
-                "level": 65
             },
             {
                 "name": "SASS",
@@ -75,10 +63,6 @@
             {
                 "name": "VS Code",
                 "level": 75
-            },
-            {
-                "name": "Office",
-                "level": 95
             },
             {
                 "name": "git",
@@ -120,20 +104,12 @@
         "icon":"fas fa-users",
         "skills":[
             {
-                "name": "Agilité",
+                "name": "Agilité, Scrum",
                 "level": 90
             },
             {
-                "name": "Scrum",
-                "level": 80
-            },
-            {
-                "name": "Jira",
+                "name": "Jira, Confluence",
                 "level": 75
-            },
-            {
-                "name": "Confluence",
-                "level": 85
             }
         ]
     }

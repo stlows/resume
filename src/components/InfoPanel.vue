@@ -2,7 +2,7 @@
     <div class="infoPanel">
         <img src="../../public/img/vbeaulieu.jpg" alt="">
         <contact-info></contact-info>
-        <skills-info></skills-info>
+        <skills-info :lang="lang"></skills-info>
     </div>
 </template>
 
@@ -13,6 +13,9 @@ export default {
     components: {
         'contact-info': ContactInfo,
         'skills-info': Skills,
+    },
+    props:{
+        'lang':String
     }
 }
 </script>
@@ -25,7 +28,6 @@ export default {
         background-color: #111;
         color: #cccccc;
         box-shadow: 5px 2px 10px 0 #0000001f;
-        
     }
     img {
         width: 100%;

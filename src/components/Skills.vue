@@ -1,7 +1,12 @@
 <template>
     <div class="skills">
-        <h3>{{ title['en'] }}</h3>
-        <skills-group v-for="skillsGroup in skillsGroups" :key="skillsGroup.name['fr']" :skillsGroup="skillsGroup"></skills-group>
+        <h3>{{ title[lang] }}</h3>
+        <skills-group 
+            v-for="skillsGroup in skillsGroups"
+            :key="skillsGroup.name[lang]"
+            :skillsGroup="skillsGroup"
+            :lang="lang">
+        </skills-group>
     </div>
 </template>
 
@@ -18,6 +23,9 @@ export default {
     },
     components: {
         'skills-group': SkillsGroup
+    },
+    props:{
+        'lang':String
     }
 }
 </script>

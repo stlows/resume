@@ -1,6 +1,9 @@
 {
     "name":"Vincent Beaulieu",
-    "jobTitle":"Développeur",
+    "jobTitle":{
+        "fr":"Développeur",
+        "en":"Software developer"
+    },
     "phone":"+1 438-876-4466",
     "address": ["6 - 7520 rue Garnier", "Montreal, QC."],
     "languages":"fr, en",
