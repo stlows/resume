@@ -1,5 +1,5 @@
 <template>
-    <div class="contact">
+    <div class="contact mb-3">
         <div class="infoPanelTitle">
             Contact
         </div>

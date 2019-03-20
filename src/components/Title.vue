@@ -1,6 +1,6 @@
 <template>
-    <div class="my-title">
-        <h1>{{ personalData.name }}</h1>
+    <div class="my-title pt-5 pl-5 mb-5">
+        <h1 class="mb-5">{{ personalData.name }}</h1>
         <h2>{{ personalData.jobTitle[lang] }}</h2>
     </div>
 </template>
@@ -24,22 +24,10 @@ export default {
 </script>
 
 <style scoped>
-    .my-title{
-        padding: 40px 0 0 40px;
-        margin-bottom: 40px;
-    }
-    h1, h2 {
-        text-transform: uppercase;
-        letter-spacing: 5px;
-    }
-    h1 {
-        color: #333333;
-        margin-bottom: 35px;
-        font-size: 1.2em;
-    }
-    h2 {
-        color: #555555;
-        font-size: 0.8em;
-    }
-
+h1{
+    letter-spacing: 5px;
+}
+h2{
+    letter-spacing: 3px;
+}
 </style>

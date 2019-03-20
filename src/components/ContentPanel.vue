@@ -28,6 +28,7 @@ export default {
     .content-panel{
         height:100%;
         background-color: #cccccc;
+        padding-right: 25%;
     }
     
 </style>

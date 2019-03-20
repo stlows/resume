@@ -45,4 +45,18 @@ body{
 .infoItem {
   margin-bottom: 10px;
 }
+
+h1, h2 {
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+h1 {
+    color: #444444;
+    font-size: 1.2em;
+}
+h2 {
+    color: #555555;
+    font-size: 0.9em;
+}
+
 </style>
