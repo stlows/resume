@@ -1,10 +1,12 @@
 <template>
     <div class="skills">
-        <h3>{{ title[lang] }}</h3>
+        <div class="infoPanelTitle">
+            {{ title[lang] }}   
+        </div>
         <skills-group 
             v-for="skillsGroup in skillsGroups"
             :key="skillsGroup.name[lang]"
-            :skillsGroup="skillsGroup">
+            :skillsGroup='skillsGroup'>
         </skills-group>
     </div>
 </template>
@@ -35,14 +37,5 @@ export default {
 <style scoped>
    .skills{
        border-top: 1px solid #cccccc;
-   }
-       h3 {
-       font-weight: 100;
-       letter-spacing: 5px;
-       text-transform: uppercase;
-       font-size: 1em;
-       text-align: center;
-       margin-top: 30px;
-       margin-bottom: 30px;
    }
 </style>

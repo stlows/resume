@@ -24,11 +24,10 @@ export default {
 </script>
 
 <style scoped>
+
     .content-panel{
-        display:block;
         height:100%;
         background-color: #cccccc;
-        padding-left: 290px;
-        width:100%;
     }
+    
 </style>
