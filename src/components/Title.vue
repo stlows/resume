@@ -7,14 +7,18 @@
 
 <script>
 import personal from '../data/personal.json';
+import {ressources} from '../main';
+
 export default {
     data(){
         return {
             personalData: personal
         }
     },
-    props:{
-        'lang':String
+    computed:{
+        lang(){
+            return ressources.lang;
+        }
     }
 }
 </script>

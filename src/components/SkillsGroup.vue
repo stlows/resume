@@ -16,6 +16,7 @@
 
 <script>
 import Skill from './Skill.vue';
+import {ressources} from '../main.js';
 
 export default {
     data() {
@@ -23,9 +24,13 @@ export default {
             showSkills: false
         }
     },
+    computed:{
+        lang(){
+            return ressources.lang
+        }
+    },
     props:{
-        'skillsGroup':Object,
-        'lang': String
+        'skillsGroup':Object
     },
     components:{
         'skill': Skill

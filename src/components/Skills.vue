@@ -4,8 +4,7 @@
         <skills-group 
             v-for="skillsGroup in skillsGroups"
             :key="skillsGroup.name[lang]"
-            :skillsGroup="skillsGroup"
-            :lang="lang">
+            :skillsGroup="skillsGroup">
         </skills-group>
     </div>
 </template>
@@ -13,6 +12,7 @@
 <script>
 import SkillsGroup from './SkillsGroup.vue';
 import SkillsData from '../data/skills.json';
+import {ressources} from '../main.js';
 
 export default {
     data(){
@@ -21,11 +21,13 @@ export default {
             title: SkillsData.title
         }
     },
+    computed:{
+        lang(){
+            return ressources.lang;
+        }
+    },
     components: {
         'skills-group': SkillsGroup
-    },
-    props:{
-        'lang':String
     }
 }
 </script>

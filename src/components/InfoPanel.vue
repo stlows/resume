@@ -2,20 +2,18 @@
     <div class="infoPanel">
         <img src="../../public/img/vbeaulieu.jpg" alt="">
         <contact-info></contact-info>
-        <skills-info :lang="lang"></skills-info>
+        <skills-info></skills-info>
     </div>
 </template>
 
 <script>
 import ContactInfo from './ContactInfo.vue';
-import Skills from './Skills.vue'
+import Skills from './Skills.vue';
+
 export default {
     components: {
         'contact-info': ContactInfo,
         'skills-info': Skills,
-    },
-    props:{
-        'lang':String
     }
 }
 </script>

@@ -1,7 +1,7 @@
 <template>
     <div class="content-panel">
-        <my-title :lang="lang"></my-title>
-        <my-section v-for="section in sections" :key="section.key" :section="section" :lang="lang"></my-section>
+        <my-title></my-title>
+        <my-section v-for="section in sections" :key="section.key" :section="section"></my-section>
     </div>
 </template>
 
@@ -19,9 +19,6 @@ export default {
     components: {
         'my-title': Title,
         'my-section': Section,
-    },
-    props:{
-        'lang':String
     }
 }
 </script>

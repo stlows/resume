@@ -14,15 +14,21 @@
 </template>
 
 <script>
+import {ressources} from '../main';
+
 export default {
     data(){
         return {
             showSub: false
         }
     },
+    computed:{
+        lang(){
+            return ressources.lang;
+        }
+    },
     props:{
-        'task':Object,
-        'lang':String
+        'task':Object
     }
 }
 </script>

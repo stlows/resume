@@ -6,19 +6,18 @@
 </template>
 
 <script>
+import {ressources} from '../main';
+
 export default {
-    props:{
-        'lang': String
-    },
     data() {
         return{
-            my_lang: this.lang
+            lang: ressources.lang
         }
     },
     methods:{
         setLanguage(_lang){
-            this.my_lang = _lang;
-            this.$emit('OnLanguageChange', _lang);
+            this.lang = _lang;
+            ressources.setLanguage(_lang);
         }
     }
 }

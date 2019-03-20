@@ -3,7 +3,7 @@
     <h1><i :class="section.icon"></i>{{ section.title[lang] }}</h1>
     <p v-if="section.body[lang] != ''"> {{ section.body[lang] }} </p>
     <div class="cards" v-if="section.cards.length > 0">
-        <card v-for="card in section.cards" :key="card.key" :card="card" :lang="lang" ></card>
+        <card v-for="card in section.cards" :key="card.key" :card="card"></card>
     </div>
 </div>
     
@@ -11,15 +11,16 @@
 
 <script>
 import Card from './Card.vue';
+import {ressources} from '../main';
 
 export default {
-    data(){
-        return {
+    computed:{
+        lang(){
+            return ressources.lang;
         }
     },
     props:{
-        'section': Object,
-        'lang': String
+        'section': Object
     },
     components:{
         'card': Card

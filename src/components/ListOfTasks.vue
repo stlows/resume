@@ -1,6 +1,6 @@
 <template>
     <div class="tasks">
-        <task v-for="task in tasks" :key="task.title['fr']" :task="task" :lang="lang"></task>
+        <task v-for="task in tasks" :key="task.title['fr']" :task="task"></task>
     </div>
 </template>
 
@@ -9,8 +9,7 @@ import Task from './Task.vue';
 
 export default {
     props:{
-        'tasks':Array,
-        'lang': String
+        'tasks':Array
     },
     components:{
         'task':Task

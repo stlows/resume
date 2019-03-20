@@ -3,17 +3,22 @@
         <h1>{{ card.title[lang] }}</h1>
         <h2>{{ card.subtitle[lang] }}</h2>
         <p v-if="card.body">{{ card.body[lang] }}</p>
-        <list-of-tasks v-if="card.tasks" :tasks="card.tasks" :lang="lang"></list-of-tasks>
+        <list-of-tasks v-if="card.tasks" :tasks="card.tasks"></list-of-tasks>
     </div>
 </template>
 
 <script>
 import ListOfTasks from './ListOfTasks.vue';
+import {ressources} from '../main';
 
 export default {
     props:{
-        'card': Object,
-        'lang': String
+        'card': Object
+    },
+    computed:{
+        lang(){
+            return ressources.lang;
+        }
     },
     components:{
         'list-of-tasks':ListOfTasks
