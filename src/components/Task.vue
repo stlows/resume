@@ -1,10 +1,13 @@
 <template>
     <div class="my-task">
-        <span class="task-title" v-html="task.title[lang]"></span>
-        <span class="expand-btn" v-if="task.subtasks.length > 0" @click="showSub = !showSub">
+        <div class="task-header" @click="showSub = !showSub">
+            <span class="task-title" v-html="task.title[lang]"></span>
+            <span class="expand-btn" v-if="task.subtasks.length > 0">
             <i v-if="!showSub" class="fas fa-plus"></i>
             <i v-if="showSub" class="fas fa-minus"></i>
-        </span>
+            </span>
+        </div>
+        
         <ul class="secondary-task" :class={hidden:!showSub}>
             <li v-for="subtask in task.subtasks" :key="subtask.title">
                 <span>{{subtask[lang]}}</span>
@@ -37,7 +40,7 @@ export default {
 .hidden{
     display: none;
 }
-.expand-btn:hover{
+.task-header:hover{
     cursor: pointer;
 }
 .expand-btn{
@@ -58,9 +61,10 @@ export default {
     border-bottom: 1px #cccccc solid;
 }
 ul.secondary-task{
+    padding-left: 15px;
     list-style: none;
-    margin-left: 20px;
     max-width: 85%;
+    margin-bottom: 0;
 }
 ul.secondary-task span{
     font-size: 0.8em;
@@ -68,7 +72,7 @@ ul.secondary-task span{
     margin-top:5px;
 }
 ul.secondary-task>li{
-    border-left: 2px solid #535992;
+    border-left: 4px solid #535992;
     padding-left: 5px;
     border-bottom-left-radius: 5px;
 }

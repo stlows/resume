@@ -1,9 +1,9 @@
 <template>
     <div class="skills-group">
-        <h3>
+        <h3 @click="showSkills = !showSkills">
             <i :class="skillsGroup.icon"></i>
             <span class="skills-group-name">{{ skillsGroup.name[lang] }}</span>
-            <span class="expand-btn" v-if="skillsGroup.skills.length > 0" @click="showSkills = !showSkills">
+            <span class="expand-btn" v-if="skillsGroup.skills.length > 0">
                 <i v-if="!showSkills" class="fas fa-plus"></i>
                 <i v-if="showSkills" class="fas fa-minus"></i>
             </span>
@@ -43,10 +43,6 @@ export default {
     margin-left: 15px;
     margin-bottom: 15px;
 }
-
-.expand-btn:hover{
-    cursor: pointer;
-}
 .expand-btn{
     float:right;
     padding-right: 3px;
@@ -62,6 +58,9 @@ h3{
     margin-bottom: 5px;
     width: 90%;
     display: inline-block;
+}
+h3:hover{
+    cursor: pointer;
 }
 i {
     padding:0 5px;

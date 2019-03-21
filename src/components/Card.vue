@@ -1,14 +1,20 @@
 <template>
-    <div class="card">
-        <h1>{{ card.title[lang] }}</h1>
-        <h2>{{ card.subtitle[lang] }}</h2>
-        <p v-if="card.body">{{ card.body[lang] }}</p>
-        <list-of-tasks v-if="card.tasks" :tasks="card.tasks"></list-of-tasks>
+    <div class="card mb-2">
+        <div class="card-header">
+            <h1>{{ card.title[lang] }}</h1>
+            <h2>{{ card.subtitle[lang] }}</h2>
+        </div>
+        
+        <div class="card-body">
+            <p v-if="card.body">{{ card.body[lang] }}</p>
+            <task v-for="task in card.tasks" :key="task.title['fr']" :task="task"></task>
+        </div>
+       
     </div>
 </template>
 
 <script>
-import ListOfTasks from './ListOfTasks.vue';
+import Task from './Task.vue';
 import {ressources} from '../main';
 
 export default {
@@ -21,18 +27,14 @@ export default {
         }
     },
     components:{
-        'list-of-tasks':ListOfTasks
+        'task':Task
     }
 }
 </script>
 
 <style scoped>
-
     .card {
-        background-color: #fff;
-        margin-top:7px;
-        padding: 15px;
-        box-shadow: 0 2px 5px 0 #00000029, 0 2px 10px 0 #0000001f;
+        box-shadow: 1px 1px 10px #555555; 
     }
     h1{
         font-size: 0.9em;

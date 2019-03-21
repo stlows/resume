@@ -51,7 +51,7 @@ h1, h2 {
   letter-spacing: 2px;
 }
 h1 {
-    color: #444444;
+    color: #333333;
     font-size: 1.2em;
 }
 h2 {

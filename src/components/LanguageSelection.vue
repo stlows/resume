@@ -34,4 +34,7 @@ export default {
         cursor: pointer;
         text-decoration: underline;
     }
+    p{
+        margin-bottom: 0;
+    }
 </style>
