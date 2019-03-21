@@ -42,5 +42,8 @@ export default {
     h2 {
         font-size: 0.8em;
     }
+    p{
+        margin-bottom: 0;
+    }
     
 </style>

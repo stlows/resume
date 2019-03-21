@@ -2,7 +2,7 @@ import Vue from 'vue'
 import App from './App.vue'
 
 export const ressources = new Vue({
-  data:{
+  data: {
       lang: 'fr'
   },
   methods:{

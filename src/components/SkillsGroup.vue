@@ -8,9 +8,14 @@
                 <i v-if="showSkills" class="fas fa-minus"></i>
             </span>
         </h3>
-        <template v-if="showSkills">
-            <skill v-for="skill in skillsGroup.skills" :key="skill.name" :name="skill.name" :level="skill.level"></skill>
-        </template>
+        <transition name="slide">
+            <template v-if="showSkills">
+                <div class="skills-list">
+                    <skill v-for="skill in skillsGroup.skills" :key="skill.name" :name="skill.name" :level="skill.level"></skill>
+                </div>
+            </template>
+        </transition>
+        
     </div>
 </template>
 
@@ -39,9 +44,40 @@ export default {
 </script>
 
 <style scoped>
+
+.skills-list{
+
+}
+.slide-enter-active{
+    transform-origin: top;
+    animation: slide-in 0.3s forwards;
+}
+.slide-leave-active{
+    transform-origin: top;
+    animation: slide-out 0.3s forwards;
+}
+
+@keyframes slide-in{
+    from {
+        transform: scaleY(0)
+    }
+    to {
+        transform: scaleY(1)
+    }
+}
+@keyframes slide-out{
+    from {
+        transform: scaleY(1)
+    }
+    to {
+        transform: scaleY(0)
+    }
+}
+
 .skills-group{
     margin-left: 15px;
     margin-bottom: 15px;
+    position: relative;
 }
 .expand-btn{
     float:right;

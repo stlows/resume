@@ -1,6 +1,7 @@
 <template>
     <div class="my-title pt-5 pl-5 mb-5">
         <h1 class="mb-5">{{ personalData.name }}</h1>
+        <hr>
         <h2>{{ personalData.jobTitle[lang] }}</h2>
     </div>
 </template>
