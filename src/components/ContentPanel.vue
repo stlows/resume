@@ -1,5 +1,5 @@
 <template>
-  <div class="content-panel">
+  <div class="content-panel pl-md-5 pl-4 pt-5">
     <my-title></my-title>
     <my-section v-for="section in sections" :key="section.key" :section="section"></my-section>
   </div>
