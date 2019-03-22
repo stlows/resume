@@ -1,117 +1,114 @@
 {
-    "title":{
-        "fr":"Compétences",
-        "en":"Skills"},
-    "skills":[
+  "title": {
+    "fr": "Compétences",
+    "en": "Skills"
+  },
+  "skills": [
     {
-        "name":{
-            "fr":"Backend",
-            "en":"Backend"
+      "name": {
+        "fr": "Backend",
+        "en": "Backend"
+      },
+      "icon": "fas fa-code",
+      "skills": [
+        {
+          "name": ".NET",
+          "level": 90
         },
-        "icon":"fas fa-code",
-        "skills":[
-            {
-                "name": "C#",
-                "level": 85
-            },
-            {
-                "name": ".NET",
-                "level": 90
-            },
-            {
-                "name": "php",
-                "level": 60
-            },
-            {
-                "name": "python",
-                "level": 50
-            }
-        ]
+        {
+          "name": "php",
+          "level": 60
+        },
+        {
+          "name": "python",
+          "level": 50
+        }
+      ]
     },
     {
-        "name":{
-            "fr":"Frontend",
-            "en":"Frontend"
+      "name": {
+        "fr": "Frontend",
+        "en": "Frontend"
+      },
+      "icon": "fas fa-drafting-compass",
+      "skills": [
+        {
+          "name": "HTML5 – CSS3 – JavaScript – jQuery",
+          "level": 80
         },
-        "icon":"fas fa-drafting-compass",
-        "skills":[
-            {
-                "name": "JS, jQuery, CSS3, HTML5",
-                "level": 80
-            },
-            {
-                "name": "SASS",
-                "level": 50
-            },
-            {
-                "name": "Vue.js",
-                "level": 75
-            }
-        ]
+        {
+          "name": "SASS",
+          "level": 40
+        },
+        {
+          "name": "Vue.js",
+          "level": 75
+        }
+      ]
     },
     {
-        "name":{
-            "fr":"Outils",
-            "en":"Tools"
+      "name": {
+        "fr": "Outils",
+        "en": "Tools"
+      },
+      "icon": "fas fa-tools",
+      "skills": [
+        {
+          "name": "Visual Studio",
+          "level": 85
         },
-        "icon":"fas fa-tools",
-        "skills":[
-            {
-                "name": "Visual Studio",
-                "level": 85
-            },
-            {
-                "name": "VS Code",
-                "level": 75
-            },
-            {
-                "name": "git",
-                "level": 65
-            }
-        ]
+        {
+          "name": "VS Code",
+          "level": 75
+        },
+        {
+          "name": "git",
+          "level": 65
+        }
+      ]
     },
     {
-        "name":{
-            "fr":"DevOps",
-            "en":"DevOps"
-        },
-        "icon":"fas fa-code-branch",
-        "skills":[
-            {
-                "name": "Azure",
-                "level": 40
-            }
-        ]
+      "name": {
+        "fr": "DevOps",
+        "en": "DevOps"
+      },
+      "icon": "fas fa-code-branch",
+      "skills": [
+        {
+          "name": "Azure",
+          "level": 40
+        }
+      ]
     },
     {
-        "name":{
-            "fr":"BD",
-            "en":"DB"
-        },
-        "icon":"fas fa-database",
-        "skills":[
-            {
-                "name": "SQL",
-                "level": 75
-            }
-        ]
+      "name": {
+        "fr": "BD",
+        "en": "DB"
+      },
+      "icon": "fas fa-database",
+      "skills": [
+        {
+          "name": "SQL",
+          "level": 75
+        }
+      ]
     },
     {
-        "name":{
-            "fr":"Gestion de projets",
-            "en":"Projects management"
+      "name": {
+        "fr": "Gestion de projets",
+        "en": "Projects management"
+      },
+      "icon": "fas fa-users",
+      "skills": [
+        {
+          "name": "Agilité – Scrum",
+          "level": 90
         },
-        "icon":"fas fa-users",
-        "skills":[
-            {
-                "name": "Agilité, Scrum",
-                "level": 90
-            },
-            {
-                "name": "Jira, Confluence",
-                "level": 75
-            }
-        ]
+        {
+          "name": "Jira – Confluence",
+          "level": 75
+        }
+      ]
     }
-]
+  ]
 }

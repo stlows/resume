@@ -1,79 +1,84 @@
 <template>
-    <div class="my-task">
-        <div class="task-header" @click="showSub = !showSub">
-            <span class="task-title" v-html="task.title[lang]"></span>
-            <span class="expand-btn" v-if="task.subtasks.length > 0">
-            <i v-if="!showSub" class="fas fa-plus"></i>
-            <i v-if="showSub" class="fas fa-minus"></i>
-            </span>
-        </div>
-        
-        <ul class="secondary-task" :class={hidden:!showSub}>
-            <li v-for="subtask in task.subtasks" :key="subtask.title">
-                <span>{{subtask[lang]}}</span>
-            </li>
-        </ul>
+  <div class="my-task">
+    <div :class="{'task-header-expand': hasSubTasks}" @click="showSub = !showSub">
+      <span class="task-title" v-html="task.title[lang]"></span>
+      <span class="expand-btn" v-if="task.subtasks.length > 0">
+        <i v-if="!showSub" class="fas fa-plus"></i>
+        <i v-if="showSub" class="fas fa-minus"></i>
+      </span>
     </div>
+    <template v-if="hasSubTasks">
+      <ul class="secondary-task" :class="{hidden:!showSub}">
+        <li v-for="subtask in task.subtasks" :key="subtask.title">
+          <span>{{subtask[lang]}}</span>
+        </li>
+      </ul>
+    </template>
+  </div>
 </template>
 
 <script>
-import {ressources} from '../main';
+import { ressources } from "../main";
 
 export default {
-    data(){
-        return {
-            showSub: false
-        }
+  data() {
+    return {
+      showSub: false
+    };
+  },
+  computed: {
+    lang() {
+      return ressources.lang;
     },
-    computed:{
-        lang(){
-            return ressources.lang;
-        }
-    },
-    props:{
-        'task':Object
+    hasSubTasks() {
+      return this.task.subtasks.length > 0;
     }
-}
+  },
+  props: {
+    task: Object
+  }
+};
 </script>
 
 <style scoped>
-.hidden{
-    display: none;
+.hidden {
+  display: none;
 }
-.task-header:hover{
-    cursor: pointer;
+.task-header-expand:hover {
+  cursor: pointer;
+  color: #000;
 }
-.expand-btn{
-    float:right;
+.expand-btn {
+  float: right;
 }
-.task-title{
-    display: inline-block;
-    font-size: 1em;
-    max-width: 90%;
+.task-title {
+  display: inline-block;
+  font-size: 1em;
+  max-width: 90%;
 }
-.my-task{
-    border:1px #cccccc solid;
-    border-bottom: 0;
-    padding:10px 15px;
-    color: #333333;
+.my-task {
+  border: 1px #cccccc solid;
+  border-bottom: 0;
+  color: #333333;
+  padding: 10px 15px;
 }
-.my-task:last-of-type{
-    border-bottom: 1px #cccccc solid;
+.my-task:last-of-type {
+  border-bottom: 1px #cccccc solid;
 }
-ul.secondary-task{
-    padding-left: 15px;
-    list-style: none;
-    max-width: 85%;
-    margin-bottom: 0;
+ul.secondary-task {
+  padding-left: 15px;
+  list-style: none;
+  max-width: 85%;
+  margin-bottom: 0;
 }
-ul.secondary-task span{
-    font-size: 0.8em;
-    display: block;
-    margin-top:5px;
+ul.secondary-task span {
+  font-size: 0.8em;
+  display: block;
+  margin-top: 5px;
 }
-ul.secondary-task>li{
-    border-left: 4px solid #535992;
-    padding-left: 5px;
-    border-bottom-left-radius: 5px;
+ul.secondary-task > li {
+  border-left: 3px solid #007bff;
+  padding-left: 5px;
+  border-bottom-left-radius: 5px;
 }
 </style>
