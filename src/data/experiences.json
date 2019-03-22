@@ -1,142 +1,181 @@
 [
-    {
-        "title":{
-            "fr": "Analyste-programmeur à Les Services Actuariels SAI",
-            "en":"Analyst-developer at Les Services Actuariels SAI"
-        },
-        "subtitle":{
-            "fr":"2015 — 2018",
-            "en":"2015 — 2018"
-        },
-        "tasks":[
-            {
-                "title":{
-                    "fr":"Programmation d'outils actuariels sous le Framework .NET",
-                    "en":"Programming of actuarial tools under the .NET Framework"
-                },
-                "subtasks":[
-                    {
-                        "fr":"Amélioration marquée de la productivité administrative de l’entreprise par l’automatisation de calculs",
-                        "en":"Significant improvement of the administrative productivity of the company by automating calculations"
-                    }
-                ]
-            },
-            {
-                "title":{
-                    "fr":"Responsable de l'informatique",
-                    "en":"In charge of IT"
-                },
-                "subtasks":[
-                    {
-                        "fr":"Code Review",
-                        "en":"Code Review"
-                    },
-                    {
-                        "fr":"Personne-ressource des autres programmeurs du bureau",
-                        "en":"Resource person of the other programmers of the office"
-                    },
-                    {
-                        "fr":"Migration de SVN vers Git",
-                        "en":"Migration from SVN to Git"
-                    },
-                    {
-                        "fr":"Amélioration du processus de développement et de déploiement (utilisation de branches, TeamCity, GitVersion)",
-                        "en":"Improvement of the development and deployment process (use of branches, TeamCity, GitVersion)"
-                    },
-                    {
-                        "fr":"Passage de l’utilisation de VB.NET vers C#",
-                        "en":"Changing from using VB.NET to C #"
-                    }
-                ]
-            },
-            {
-                "title":{
-                    "fr":"Aide au développement d’une application Web de gestion syndicale",
-                    "en":"Support for the development of a union management web application"
-                },
-                "subtasks":[
-                    {
-                        "fr":"Migration de données",
-                        "en":"Data migration"
-                    },
-                    {
-                        "fr":"Développement d’un logiciel d’import dynamique en utilisant l’API de l’application",
-                        "en":"Dynamic import program using application's API"
-                    }
-                ]
-            },
-            {
-                "title":{
-                    "fr":"Développement d’applications Web en ASP.NET",
-                    "en":"ASP.NET application development"
-                },
-                "subtasks":[
-                    {
-                        "fr":"Utilisation à l’interne pour des rapports ou pour des clients",
-                        "en":"For internal use or for clients"
-                    }
-                ]
-            }
-        ]
+  {
+    "title": {
+      "fr": "Analyste-programmeur à SOQUIJ",
+      "en": "Analyst-developer at SOQUIJ"
     },
-    {
-        "title":{
-            "fr":"Réseau Francophone du Droit International",
-            "en":"Réseau Francophone du Droit International"
-        },
-        "subtitle":{
-            "fr":"2016 — 2018",
-            "en":"2016 — 2018"
-        },
-        "tasks":[
-            {
-                "title":{
-                    "fr":"Développement et maintenance d'un fichier Excel pour organiser et gérer le <a href='http://www.rfdi.net/presentation-du-concours-charles-rousseau/' target='_blank'>Concours Charles-Rousseau</a>",
-                    "en":"Developement and maintenance of an Excel file for organizing and managing the <a href='http://www.rfdi.net/presentation-du-concours-charles-rousseau/' target='_blank'>Concours Charles-Rousseau</a>"
-                },
-                "subtasks": []
-            }
-        ]
+    "subtitle": {
+      "fr": "2019 — aujourd'hui",
+      "en": "2019 — today"
     },
-    {
-        "title":{
-            "fr":"Projets personnels",
-            "en":"Personal projects"
+    "tasks": [
+      {
+        "title": {
+          "fr": "Développement de projets",
+          "en": "Projects developpement"
         },
-        "subtitle":{
-            "fr":"",
-            "en":""
-        },
-        "tasks":[
-            {
-                "title":{
-                    "fr":"Projets personnels hébergés avec <a href='https://stlows.github.io/' target='_blank'>github.io</a>",
-                    "en":"Personal projects hosted on <a href='https://stlows.github.io/' target='_blank'>github.io</a>"
-                },
-                "subtasks": []
-            },
-            {
-                "title":{
-                    "fr":"Développement de sites web promotionnels (<a href='https://www.ancredoree.com' target='_blank'>www.ancredoree.com</a>, <a href='#'>www.vbeaulieu.com</a>)",
-                    "en":"Development of promotional websites (<a href='https://www.ancredoree.com' target='_blank'>www.ancredoree.com</a>, <a href='#'>www.vbeaulieu.com</a>)"
-                },
-                "subtasks": []
-            },
-            {
-                "title":{
-                    "fr":"Jeu de poker en python (sans le <abbr title='Graphical user interface'>GUI</abbr>) et implémentation d'une <abbr title='Intelligence artificielle'>IA</abbr>",
-                    "en":"Python poker game (without <abbr title='Graphical user interface'>GUI</abbr>) and implementation of an <abbr title='Artificial intelligence'>AI</abbr>"
-                },
-                "subtasks": []
-            },
-            {
-                "title":{
-                    "fr":"Jeu de cartes complet 3D en Unity et C#",
-                    "en":"Complete card game using Unity3D and C#"
-                },
-                "subtasks": []
-            }            
+        "subtasks": [
+          {
+            "fr": "Développement back-end principalement en .NET",
+            "en": "Back-end developement under .NET Framework"
+          },
+          {
+            "fr": "Développement front-end principalement CSS et jQuery",
+            "en": "Front-end developement using CSS and jQuery"
+          },
+          {
+            "fr": "Méthode de travail SCRUM, axé sur le travail en équipe",
+            "en": "SCRUM method, focused on teamwork"
+          },
+          {
+            "fr": "Développement de procédure stockée sous SQL Server",
+            "en": "Stored procedure development under SQL Server"
+          },
+          {
+            "fr": "Déploiements sur différents environnements",
+            "en": "Deployments on different environments"
+          }
         ]
-    }
-     
+      }
+    ]
+  },
+  {
+    "title": {
+      "fr": "Analyste-programmeur à Les Services Actuariels SAI",
+      "en": "Analyst-developer at Les Services Actuariels SAI"
+    },
+    "subtitle": {
+      "fr": "2015 — 2018",
+      "en": "2015 — 2018"
+    },
+    "tasks": [
+      {
+        "title": {
+          "fr": "Programmation d'outils actuariels sous le Framework .NET",
+          "en": "Programming of actuarial tools under the .NET Framework"
+        },
+        "subtasks": [
+          {
+            "fr": "Amélioration marquée de la productivité administrative de l’entreprise par l’automatisation de calculs",
+            "en": "Significant improvement of the administrative productivity of the company by automating calculations"
+          }
+        ]
+      },
+      {
+        "title": {
+          "fr": "Responsable de l'informatique",
+          "en": "In charge of IT"
+        },
+        "subtasks": [
+          {
+            "fr": "Code Review",
+            "en": "Code Review"
+          },
+          {
+            "fr": "Personne-ressource des autres programmeurs du bureau",
+            "en": "Resource person of the other programmers of the office"
+          },
+          {
+            "fr": "Migration de SVN vers Git",
+            "en": "Migration from SVN to Git"
+          },
+          {
+            "fr": "Amélioration du processus de développement et de déploiement (utilisation de branches, TeamCity, GitVersion)",
+            "en": "Improvement of the development and deployment process (use of branches, TeamCity, GitVersion)"
+          },
+          {
+            "fr": "Passage de l’utilisation de VB.NET vers C#",
+            "en": "Changing from using VB.NET to C #"
+          }
+        ]
+      },
+      {
+        "title": {
+          "fr": "Aide au développement d’une application Web de gestion syndicale",
+          "en": "Support for the development of a union management web application"
+        },
+        "subtasks": [
+          {
+            "fr": "Migration de données",
+            "en": "Data migration"
+          },
+          {
+            "fr": "Développement d’un logiciel d’import dynamique en utilisant l’API de l’application",
+            "en": "Dynamic import program using application's API"
+          }
+        ]
+      },
+      {
+        "title": {
+          "fr": "Développement d’applications Web en ASP.NET",
+          "en": "ASP.NET application development"
+        },
+        "subtasks": [
+          {
+            "fr": "Utilisation à l’interne pour des rapports ou pour des clients",
+            "en": "For internal use or for clients"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": {
+      "fr": "Réseau Francophone du Droit International",
+      "en": "Réseau Francophone du Droit International"
+    },
+    "subtitle": {
+      "fr": "2016 — 2018",
+      "en": "2016 — 2018"
+    },
+    "tasks": [
+      {
+        "title": {
+          "fr": "Développement et maintenance d'un fichier Excel pour organiser et gérer le <a href='http://www.rfdi.net/presentation-du-concours-charles-rousseau/' target='_blank'>Concours Charles-Rousseau</a>",
+          "en": "Development and maintenance of an Excel file for organizing and managing the <a href='http://www.rfdi.net/presentation-du-concours-charles-rousseau/' target='_blank'>Concours Charles-Rousseau</a>"
+        },
+        "subtasks": []
+      }
+    ]
+  },
+  {
+    "title": {
+      "fr": "Projets personnels",
+      "en": "Personal projects"
+    },
+    "subtitle": {
+      "fr": "",
+      "en": ""
+    },
+    "tasks": [
+      {
+        "title": {
+          "fr": "Projets personnels hébergés avec <a href='https://stlows.github.io/' target='_blank'>github.io</a>",
+          "en": "Personal projects hosted on <a href='https://stlows.github.io/' target='_blank'>github.io</a>"
+        },
+        "subtasks": []
+      },
+      {
+        "title": {
+          "fr": "Développement de sites web promotionnels (<a href='https://www.ancredoree.com' target='_blank'>www.ancredoree.com</a>, <a href='#'>www.vbeaulieu.com</a>)",
+          "en": "Development of promotional websites (<a href='https://www.ancredoree.com' target='_blank'>www.ancredoree.com</a>, <a href='#'>www.vbeaulieu.com</a>)"
+        },
+        "subtasks": []
+      },
+      {
+        "title": {
+          "fr": "Jeu de poker en python (sans le <abbr title='Graphical user interface'>GUI</abbr>) et implémentation d'une <abbr title='Intelligence artificielle'>IA</abbr>",
+          "en": "Python poker game (without <abbr title='Graphical user interface'>GUI</abbr>) and implementation of an <abbr title='Artificial intelligence'>AI</abbr>"
+        },
+        "subtasks": []
+      },
+      {
+        "title": {
+          "fr": "Jeu de cartes complet 3D en Unity et C#",
+          "en": "Complete card game using Unity3D and C#"
+        },
+        "subtasks": []
+      }
+    ]
+  }
 ]

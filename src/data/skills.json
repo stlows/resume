@@ -89,7 +89,11 @@
       "skills": [
         {
           "name": "SQL",
-          "level": 75
+          "level": 65
+        },
+        {
+          "name": "Enity Framework",
+          "level": 60
         }
       ]
     },
