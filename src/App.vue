@@ -1,13 +1,13 @@
 <template>
   <div class="container-fluid px-0">
     <div class="row no-gutters">
-      <div class="col-sm-12 col-xl-3">
+      <div class="col-12 col-xl-3">
         <info-panel></info-panel>
       </div>
-      <div class="col-sm-12 col-xl-9">
+      <div class="col-12 col-xl-9">
         <content-panel></content-panel>
       </div>
-      <div class="col-sm-12">
+      <div class="col-12">
         <language-selection></language-selection>
       </div>
     </div>

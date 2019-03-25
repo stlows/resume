@@ -9,7 +9,7 @@
     </div>
     <template v-if="hasSubTasks">
       <ul class="secondary-task" :class="{hidden:!showSub}">
-        <li v-for="subtask in task.subtasks" :key="subtask.title">
+        <li v-for="subtask in task.subtasks" :key="subtask['fr']">
           <span>{{subtask[lang]}}</span>
         </li>
       </ul>
