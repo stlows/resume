@@ -3,15 +3,13 @@
     "fr": "Compétences",
     "en": "Skills"
   },
-  "skills": [
-    {
+  "skills": [{
       "name": {
         "fr": "Backend",
         "en": "Backend"
       },
       "icon": "fas fa-code",
-      "skills": [
-        {
+      "skills": [{
           "name": ".NET",
           "level": 90
         },
@@ -31,8 +29,7 @@
         "en": "Frontend"
       },
       "icon": "fas fa-drafting-compass",
-      "skills": [
-        {
+      "skills": [{
           "name": "HTML5 – CSS3 – JavaScript – jQuery",
           "level": 80
         },
@@ -52,8 +49,7 @@
         "en": "Tools"
       },
       "icon": "fas fa-tools",
-      "skills": [
-        {
+      "skills": [{
           "name": "Visual Studio",
           "level": 85
         },
@@ -73,38 +69,34 @@
         "en": "DevOps"
       },
       "icon": "fas fa-code-branch",
-      "skills": [
-        {
-          "name": "Azure",
-          "level": 40
-        }
-      ]
+      "skills": [{
+        "name": "Azure",
+        "level": 40
+      }]
     },
     {
       "name": {
-        "fr": "BD",
-        "en": "DB"
+        "fr": "Base de données",
+        "en": "Database"
       },
       "icon": "fas fa-database",
-      "skills": [
-        {
+      "skills": [{
           "name": "SQL",
           "level": 65
         },
         {
-          "name": "Enity Framework",
+          "name": "Entity Framework",
           "level": 60
         }
       ]
     },
     {
       "name": {
-        "fr": "Gestion de projets",
-        "en": "Projects management"
+        "fr": "Gestion de projet",
+        "en": "Project management"
       },
       "icon": "fas fa-users",
-      "skills": [
-        {
+      "skills": [{
           "name": "Agilité – Scrum",
           "level": 90
         },

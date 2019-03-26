@@ -1,12 +1,10 @@
 <template>
-  <div class="my-task">
-    <div :class="{'task-header-expand': hasSubTasks}" @click="showSub = !showSub">
-      <span class="task-title" v-html="task.title[lang]"></span>
-      <span class="expand-btn" v-if="task.subtasks.length > 0">
-        <i v-if="!showSub" class="fas fa-plus"></i>
-        <i v-if="showSub" class="fas fa-minus"></i>
-      </span>
-    </div>
+  <div :class="{'my-task':true, 'my-task-expandable':hasSubTasks }" @click="showSub = !showSub">
+    <span class="task-title" v-html="task.title[lang]"></span>
+    <span class="expand-btn" v-if="task.subtasks.length > 0">
+      <i v-if="!showSub" class="fas fa-plus"></i>
+      <i v-if="showSub" class="fas fa-minus"></i>
+    </span>
     <template v-if="hasSubTasks">
       <ul class="secondary-task" :class="{hidden:!showSub}">
         <li v-for="subtask in task.subtasks" :key="subtask['fr']">
@@ -44,9 +42,10 @@ export default {
 .hidden {
   display: none;
 }
-.task-header-expand:hover {
+.my-task-expandable:hover {
   cursor: pointer;
   color: #000;
+  background-color: #f5f5f5;
 }
 .expand-btn {
   float: right;

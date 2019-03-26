@@ -3,10 +3,10 @@ import App from './App.vue'
 
 export const ressources = new Vue({
   data: {
-      lang: 'fr'
+    lang: 'fr'
   },
-  methods:{
-    setLanguage(newLang){
+  methods: {
+    setLanguage(newLang) {
       this.lang = newLang;
     }
   }
