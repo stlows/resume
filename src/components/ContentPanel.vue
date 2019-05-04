@@ -9,7 +9,7 @@
 import Title from "./Title.vue";
 import Section from "./Section.vue";
 import SECTIONS from "../data/sections.js";
-
+import VLink from "./VLink.vue";
 export default {
   data() {
     return {
@@ -18,7 +18,8 @@ export default {
   },
   components: {
     "my-title": Title,
-    "my-section": Section
+    "my-section": Section,
+    "v-link": VLink
   }
 };
 </script>

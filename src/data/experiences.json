@@ -11,8 +11,8 @@
     "tasks": [
       {
         "title": {
-          "fr": "Développement de projets",
-          "en": "Projects developpement"
+          "fr": "Développeur Full-Stack",
+          "en": "Full-Stack developer"
         },
         "subtasks": [
           {
@@ -133,46 +133,6 @@
         "title": {
           "fr": "Développement et maintenance d'un fichier Excel pour organiser et gérer le <a href='http://www.rfdi.net/presentation-du-concours-charles-rousseau/' target='_blank'>Concours Charles-Rousseau</a>",
           "en": "Development and maintenance of an Excel file for organizing and managing the <a href='http://www.rfdi.net/presentation-du-concours-charles-rousseau/' target='_blank'>Concours Charles-Rousseau</a>"
-        },
-        "subtasks": []
-      }
-    ]
-  },
-  {
-    "title": {
-      "fr": "Projets personnels",
-      "en": "Personal projects"
-    },
-    "subtitle": {
-      "fr": "",
-      "en": ""
-    },
-    "tasks": [
-      {
-        "title": {
-          "fr": "Projets personnels hébergés avec <a href='https://stlows.github.io/' target='_blank'>github.io</a>",
-          "en": "Personal projects hosted on <a href='https://stlows.github.io/' target='_blank'>github.io</a>"
-        },
-        "subtasks": []
-      },
-      {
-        "title": {
-          "fr": "Développement de sites web promotionnels (<a href='https://www.ancredoree.com' target='_blank'>www.ancredoree.com</a>, <a href='#'>www.vbeaulieu.com</a>)",
-          "en": "Development of promotional websites (<a href='https://www.ancredoree.com' target='_blank'>www.ancredoree.com</a>, <a href='#'>www.vbeaulieu.com</a>)"
-        },
-        "subtasks": []
-      },
-      {
-        "title": {
-          "fr": "Jeu de poker en python (sans le <abbr title='Graphical user interface'>GUI</abbr>) et implémentation d'une <abbr title='Intelligence artificielle'>IA</abbr>",
-          "en": "Python poker game (without <abbr title='Graphical user interface'>GUI</abbr>) and implementation of an <abbr title='Artificial intelligence'>AI</abbr>"
-        },
-        "subtasks": []
-      },
-      {
-        "title": {
-          "fr": "Jeu de cartes complet 3D en Unity et C#",
-          "en": "Complete card game using Unity3D and C#"
         },
         "subtasks": []
       }

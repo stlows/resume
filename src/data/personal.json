@@ -1,26 +1,26 @@
 {
-    "name": "Vincent Beaulieu",
-    "jobTitle": {
-        "fr": "Développeur",
-        "en": "Software developer"
-    },
-    "phone": "+1 438-876-4466",
-    "address": "Montreal, QC.",
-    "languages": "fr, en",
-    "email": {
-        "label": "vbeaulieu@vbeaulieu.com",
-        "redirect": "mailto:vbeaulieu@vbeaulieu.com"
-    },
-    "linkedIn": {
-        "label": "/vincent-beaulieu",
-        "redirect": "https://www.linkedin.com/in/vincent-beaulieu/"
-    },
-    "github": {
-        "label": "@stlows",
-        "redirect": "https://github.com/stlows"
-    },
-    "website": {
-        "label": "stlows.github.io",
-        "redirect": "https://stlows.github.io"
-    }
+  "name": "Vincent Beaulieu",
+  "jobTitle": {
+    "fr": "Développeur",
+    "en": "Software developer"
+  },
+  "phone": "+1 438-876-4466",
+  "address": "Montreal, QC.",
+  "languages": "fr, en",
+  "email": {
+    "label": "vbeaulieu@vbeaulieu.com",
+    "redirect": "mailto:vbeaulieu@vbeaulieu.com"
+  },
+  "linkedIn": {
+    "label": "/vincent-beaulieu",
+    "redirect": "https://www.linkedin.com/in/vincent-beaulieu/"
+  },
+  "github": {
+    "label": "@stlows",
+    "redirect": "https://github.com/stlows"
+  },
+  "projects": {
+    "label": "/projects",
+    "redirect": "https://vbeaulieu.com/projects"
+  }
 }

@@ -8,7 +8,7 @@
         <contact-info-item icon="fas fa-map-marker" :item="myData.address"></contact-info-item>
         <contact-link-item icon="fab fa-linkedin-in" :item="myData.linkedIn"></contact-link-item>
         <contact-link-item icon="fab fa-github" :item="myData.github"></contact-link-item>
-        <contact-link-item icon="fas fa-globe" :item="myData.website"></contact-link-item>
+        <!-- <contact-link-item icon="fas fa-globe" :item="myData.projects"></contact-link-item> -->
         <contact-info-item icon="fas fa-language" :item="myData.languages"></contact-info-item>
       </div>
     </div>
