@@ -62,49 +62,6 @@
           "level": 65
         }
       ]
-    },
-    {
-      "name": {
-        "fr": "DevOps",
-        "en": "DevOps"
-      },
-      "icon": "fas fa-code-branch",
-      "skills": [{
-        "name": "Azure",
-        "level": 40
-      }]
-    },
-    {
-      "name": {
-        "fr": "Base de données",
-        "en": "Database"
-      },
-      "icon": "fas fa-database",
-      "skills": [{
-          "name": "SQL",
-          "level": 65
-        },
-        {
-          "name": "Entity Framework",
-          "level": 60
-        }
-      ]
-    },
-    {
-      "name": {
-        "fr": "Gestion de projet",
-        "en": "Project management"
-      },
-      "icon": "fas fa-users",
-      "skills": [{
-          "name": "Agilité – Scrum",
-          "level": 90
-        },
-        {
-          "name": "Jira – Confluence",
-          "level": 75
-        }
-      ]
     }
   ]
 }

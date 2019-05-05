@@ -1,26 +1,22 @@
 {
-  "name": "Vincent Beaulieu",
+  "name": "John Doe",
   "jobTitle": {
     "fr": "Développeur",
     "en": "Software developer"
   },
-  "phone": "+1 438-876-4466",
+  "phone": "+1 123-456-7890",
   "address": "Montreal, QC.",
   "languages": "fr, en",
   "email": {
-    "label": "vbeaulieu@vbeaulieu.com",
-    "redirect": "mailto:vbeaulieu@vbeaulieu.com"
+    "label": "example@example.com",
+    "redirect": "#"
   },
   "linkedIn": {
-    "label": "/vincent-beaulieu",
-    "redirect": "https://www.linkedin.com/in/vincent-beaulieu/"
+    "label": "/john-doe",
+    "redirect": "#"
   },
   "github": {
-    "label": "@stlows",
-    "redirect": "https://github.com/stlows"
-  },
-  "projects": {
-    "label": "/projects",
-    "redirect": "https://vbeaulieu.com/projects"
+    "label": "@johndoe",
+    "redirect": "#"
   }
 }

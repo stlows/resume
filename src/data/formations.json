@@ -1,40 +1,25 @@
-[
-    {
+[{
         "title": {
-            "fr":"Université de Montréal",
-            "en":"University of MOntreal"
+            "fr": "École 1",
+            "en": "School 1"
         },
         "subtitle": {
-            "fr":"2013 — 2016",
-            "en":"2013 — 2016"
+            "fr": "2013 — 2016",
+            "en": "2013 — 2016"
         },
         "body": {
-            "fr":"Baccalauréat en mathématiques — Spécialisation en actuariat",
-            "en": "Bachelor's degree in mathematics — Specialisation in actuarial science"
+            "fr": "Niveau scolaire",
+            "en": "Scolarship level"
         }
     },
     {
         "title": {
-            "fr":"CEGEP de Saint-Laurent",
-            "en":"CEGEP de Saint-Laurent"
-        },
-        "subtitle":{
-            "fr":"2011 — 2013",
-            "en":"2011 — 2013"
-        },
-        "body": {
-            "fr": "D.E.C. en sciences de la nature",
-            "en": "DCS in natural sciences"
-        }
-    },
-    {
-        "title": {
-            "fr":"Collège Mont-Saint-Louis",
-            "en":"Collège Mont-Saint-Louis"
+            "fr": "École 2",
+            "en": "School 2"
         },
         "subtitle": {
-            "fr":"2006 — 2011",
-            "en":"2006 — 2011"
+            "fr": "2011 — 2013",
+            "en": "2011 — 2013"
         }
     }
 ]

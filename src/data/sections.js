@@ -2,8 +2,7 @@ import experiences from "../data/experiences.json";
 import formations from "../data/formations.json";
 
 export default {
-  sections: [
-    {
+  sections: [{
       title: {
         fr: "À propos",
         en: "About"
@@ -11,10 +10,8 @@ export default {
       icon: "fas fa-info-circle",
       key: "apropos",
       body: {
-        fr:
-          "Après l’obtention de son diplôme de l’Université de Montréal en actuariat, la passion de Vincent pour la technologie le rattrape et le fait changer de domaine. Sa curiosité, sa rigueur et son désir de vouloir trouver des solutions efficaces et simples font de lui un excellent programmeur.\rVincent aime profiter de la vie. Entre deux lignes de code, vous le trouverez en randonnée à l’autre bout du monde, en chute libre dans le ciel, au chalet avec sa famille ou autour d’une bière avec des amis.",
-        en:
-          "After graduating from the University of Montreal in Actuarial Science, Vincent's passion for technology caught up with him and changed his field. His curiosity, his rigor and his desire to find effective and simple solutions make him an excellent programmer.\rVincent likes to enjoy life. Between two lines of code, you'll find him hiking on the other side of the world, free falling in the sky, at the cottage with his family or around a beer with friends."
+        fr: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque eget fringilla nisl. Pellentesque massa dolor, imperdiet a sodales id, elementum non lacus. Aenean blandit enim felis, eu condimentum enim euismod at. Nulla gravida mi quis mauris tincidunt viverra. Curabitur egestas, mauris in suscipit scelerisque, orci erat tempus felis, nec commodo tortor magna at ipsum.",
+        en: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque eget fringilla nisl. Pellentesque massa dolor, imperdiet a sodales id, elementum non lacus. Aenean blandit enim felis, eu condimentum enim euismod at. Nulla gravida mi quis mauris tincidunt viverra. Curabitur egestas, mauris in suscipit scelerisque, orci erat tempus felis, nec commodo tortor magna at ipsum."
       },
       cards: []
     },
@@ -26,8 +23,8 @@ export default {
       icon: "fas fa-folder",
       key: "projects",
       body: {
-        fr: "<a href='/portfolio.html'>Mon portfolio</a>",
-        en: "<a href='/portfolio.html'>My portfolio</a>"
+        fr: "<a href='#'>Mon portfolio</a>",
+        en: "<a href='#'>My portfolio</a>"
       },
       cards: []
     },

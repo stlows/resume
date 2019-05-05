@@ -15,48 +15,48 @@
 </template>
 
 <script>
-  import InfoPanel from './components/1_InfoPanel/InfoPanel.vue';
-  import ContentPanel from './components/ContentPanel.vue';
-  import LanguageSelection from './components/LanguageSelection.vue';
+import InfoPanel from "./components/InfoPanel.vue";
+import ContentPanel from "./components/ContentPanel.vue";
+import LanguageSelection from "./components/LanguageSelection.vue";
 
-  export default {
-    components: {
-      'info-panel': InfoPanel,
-      'content-panel': ContentPanel,
-      'language-selection':LanguageSelection
-    }
+export default {
+  components: {
+    "info-panel": InfoPanel,
+    "content-panel": ContentPanel,
+    "language-selection": LanguageSelection
   }
+};
 </script>
 <style>
-.resume{
+.resume {
   height: 45cm;
 }
-body{
-  font-family: 'Lato', sans-serif;
+body {
+  font-family: "Lato", sans-serif;
 }
 .infoPanelTitle {
-       font-weight: 100;
-       letter-spacing: 5px;
-       text-transform: uppercase;
-       font-size: 1em;
-       text-align: center;
-       margin: 30px 0;
+  font-weight: 100;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  font-size: 1em;
+  text-align: center;
+  margin: 30px 0;
 }
 .infoItem {
   margin-bottom: 10px;
 }
 
-h1, h2 {
+h1,
+h2 {
   text-transform: uppercase;
   letter-spacing: 2px;
 }
 h1 {
-    color: #333333;
-    font-size: 1.2em;
+  color: #333333;
+  font-size: 1.2em;
 }
 h2 {
-    color: #555555;
-    font-size: 0.9em;
+  color: #555555;
+  font-size: 0.9em;
 }
-
 </style>
