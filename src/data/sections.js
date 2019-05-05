@@ -26,8 +26,8 @@ export default {
       icon: "fas fa-folder",
       key: "projects",
       body: {
-        fr: "<a href='/portfolio'>Mon portfolio</a>",
-        en: "<a href='/portfolio'>My portfolio</a>"
+        fr: "<a href='/portfolio.html'>Mon portfolio</a>",
+        en: "<a href='/portfolio.html'>My portfolio</a>"
       },
       cards: []
     },

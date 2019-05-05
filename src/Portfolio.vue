@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h1>Projects</h1>
+    <h1>Portfolio</h1>
     <v-link href="/">Home</v-link>
   </div>
 </template>
